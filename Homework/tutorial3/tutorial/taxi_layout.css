@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/*Classic Taxi
+Layout Style sheet	  
+Josh Barron*/
+
+/*body*/
+body {background-color: white;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;}
+/* heading styles*/
+h1 {background-color: orange;
+	color:black;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	word-spacing: .5em;
+	letter-spacing: .2em;
+	text-align: center;}
+h2 {background-color: chocolate;
+	color: white;}
+/*paragraph*/
+p {color: saddlebrown;
+	text-indent: 3em;
+	line-height: 1.5em;}
+/*footer*/
+footer {color: saddlebrown;
+	background-color: palegoldenrod;
+	font-size: .7em;
+	text-align: center;}
+/*links*/
+a {color: orange;
+	font-size: 1.5em;
+	text-decoration: none;}

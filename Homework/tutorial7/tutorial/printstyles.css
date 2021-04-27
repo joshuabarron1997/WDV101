@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* print styles
+josh barron
+4/23/18*/
+
+/*hide*/
+
+nav, header {display: none;}
+
+@page {	size: 8.5in 11in;
+		margin: 0.5in;}
+
+/*format page*/
+
+body {	color: black;
+		background-color: white;
+		background-image: none;
+		font-size: 12pt;
+		font-family: "Times New Roman", Times, serif;
+		line-height: 120%;}
+
+/*links*/
+
+a {	text-decoration: underline;
+	color: blue;}
+
+/*imgs*/
+
+img {display: none;}
+
+
+

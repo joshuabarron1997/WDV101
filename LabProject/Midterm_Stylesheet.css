@@ -1,0 +1,47 @@
+@charset "utf-8";
+/*Josh Barron
+Midterm Stylesheet
+3/6/18*/
+
+/*body*/
+body {background-color: #BAFFBA;
+		font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;}
+
+/*nav*/
+nav {background-color: #3B9609;
+			line-height: 200%;
+			display: block;}
+/*nav li*/
+nav li {display: inline;
+		list-style-type: none;
+		padding-right: 40px;}
+/*.title*/
+.title {color: orange;
+		align-content:center;
+		font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+		font-size: 250%;
+		font-weight: bold;}
+/*title decoration*/
+p a {text-decoration: none;}
+/*img*/
+img {vertical-align: middle;}
+/*.center*/
+.center {text-align: center}
+/*a*/
+a:link {color: brown;}
+
+a:visited {color: sandybrown;}
+
+a:hover {color: rosybrown}
+/*footer*/
+footer {color: black;
+		font-size: 75%}
+/*paragraph*/
+p {font-size: 125%;}
+/*maroon*/
+.maroon {color: maroon;}
+/*company name*/
+.name {color: green;
+		font-weight: bold;}
+
+

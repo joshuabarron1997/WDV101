@@ -1,0 +1,29 @@
+@charset "utf-8";
+/*Josh Barron
+	2/21/2018*/
+/*body*/
+body {font-size: 1.1em;
+	font-family: "arial", "helvetica", sans-serif;
+	background-color: #C19276}
+/*header 1*/
+h1 {font-style: italic;
+	font-size: 150%;
+	font-family: "cooper black", serif;
+	font-weight: light;}
+/*header 2*/
+h2 {color: white;
+	background-color: teal;}
+/*header 3*/
+h2 {color: white;
+	background-color: teal;}
+/*header 4*/
+h4 {font-variant: small-caps;}
+/*italics*/
+em {color: green;
+	font-weight: bold;}
+/*contact id*/
+#contact {font-size: 1.5em;
+		font-weight: bold;
+		color: teal;}
+/*links*/
+a {text-decoration: none;}

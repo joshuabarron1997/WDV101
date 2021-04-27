@@ -1,0 +1,21 @@
+@charset "utf-8";
+/*Josh Barron
+T3C2 CSS
+2/15/18*/
+/*body*/
+body {font-family: Verdana, sans-serif;
+background-color: #c0e59b;}
+/*header 1*/
+h1 {text-align: center;}
+/*header 2*/
+h2 {color: navy;}
+/*header 3*/
+h3 {font-weight: bold;
+	color: navy;}
+/*paragraph*/
+p {text-indent: 5em;
+	line-height: 1.5em;}
+/*heading 4*/
+h4 {text-transform: uppercase;
+	font-style: italic;
+	color: maroon;}

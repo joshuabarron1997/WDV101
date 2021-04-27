@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* josh barron
+4/25/18*/
+
+	#container {
+	  width: 900px;
+	  margin: 0 auto;
+	  border-width: 1px;
+	}
+
+	body {
+	  background-color: lightgrey;
+	  font-family: Verdana, sans-serif;
+	}
+
+	#content {
+	  padding: 10px;
+	  color: white;
+	  background-color: steelblue;
+	  border-radius: 20px;
+	}
+
+	footer {
+	  margin: 10px 0;
+	  border-top: solid thin black;
+	  border-bottom: solid thick black;
+	  padding: 5px;
+	  text-align: center;
+	}
+
+	a:link {
+	  padding: 5px;
+	  color: midnightblue;
+	  font-weight: bold;
+	  text-decoration: none;
+	}
+
+	a:hover {
+	  padding: 5px;
+	  font-weight: bold;
+	  text-decoration: underline;
+	}  
+
+	h3 {
+	  margin-top: 0;
+	  color: white;
+	  background-color: midnightblue;
+	  text-align: center;
+	}
+
+	.center {
+	  font-style: italic;
+	  text-align: center;
+	}
+	
+	table {	width: 100%;
+			margin: 10px auto;
+			border: solid 3px black;
+			border-collapse: collapse;
+			background-color: lightblue;}
+	
+	caption {	padding: 4px;
+				color: white;
+				background-color: midnightblue;
+				font-weight: bold;
+				font-style: italic;
+				font-size: 1.2em;}
+	
+	td {padding: 6px;}
+	
+	tr.stripe {background-color: dodgerblue;}
+	
+	tr:hover {	color: white;
+				background-color: black;}
+	
+	.activities {background-color: royalblue;}
+
+
+	/* enter the code for table styles below */
+
+
+

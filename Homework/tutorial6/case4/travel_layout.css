@@ -1,0 +1,85 @@
+@charset "utf-8";
+/*Josh Barron 
+travel_layout */
+
+* {margin: 0;
+		padding: 0;}
+	
+aside {width: 300px;
+		margin-right: 2px;
+		margin-bottom: 10px;
+		margin-top: 2px;
+		margin-left: 2px;
+		font-family: Arial, Helvetica, sans-serif;
+		float: left;
+		overflow: visible;
+		border: solid 3px gray;
+		border-radius: 25px;
+		padding: 1px;
+		background-color: white}
+
+aside h3 {margin: 0;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			text-align: center;}
+
+aside p {margin: 0;
+  			line-height: 2em;
+
+			text-align: center;}
+	
+	header {width: 900px;
+			text-align: center;
+			border: 3px solid gray;
+			border-radius: 25px;
+			margin: 2px auto 2px auto;
+			padding: 1px;
+			background-color: white;}
+	
+	#main {width: 576px;
+				border: solid 3px gray;
+				margin-left: 2px;
+				margin-top: 2px;
+				margin-right: 2px;
+				margin-bottom: 2px;
+				padding: 1px;
+				border-radius: 25px;
+				float: left;
+				line-height: 1.5em;
+				background-color: white;}
+	
+	#container {width: 900px;
+				margin: 5px auto;}
+	
+	footer {clear: both;
+			width: 890px;
+			border: solid 2px gray;
+			border-radius: 25px;
+			text-align: center;
+			font-style: italic;
+			margin-left: 2.5px}
+	
+	#main h3 {text-decoration: underline;
+				font-weight: bold;
+				padding: 5px;
+				text-align: center}
+	
+	#main p {margin: 10px}
+	
+	body {background-color: darkgray}
+	
+	body #container {background-color: lightgray;
+						border: solid 3px gray;
+						border-radius: 25px}
+	
+	aside p a {border: solid 3px lightgray;
+				color: black;
+				border-radius: 25px;
+				padding: 2px 5px;
+				text-decoration: none;
+				background-color: lightgray;}
+	
+	aside p a:hover {background-color: darkgray;
+						border: darkgray;
+						font-weight: bold;}
+

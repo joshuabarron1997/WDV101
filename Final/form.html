@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+	
+	<!--Josh Barron
+		Final
+		4/25/18-->
+	
+	<meta charset="utf-8">
+	
+	<meta name = "description" content = "Pet to Go saving animals and helping people build a community here in springfield"/>
+	
+	<meta name = "keywords" content = "Pets to Go, dogs, cats, pets, shelter, no-kill, volunteer, puppy, kitten, community"/>
+	
+	<title>Pets To Go</title>
+	
+	<link href = "final.css" rel = "stylesheet" type = "text/css"/>
+	
+	<style type = "text/css">
+		
+		#main {	width: 500px;
+				margin: 10px 196px;
+				padding: 10px 0px 25px 0px;
+				border: solid 2px black;
+				border-radius: 25px;
+				text-align: center;}
+		
+		fieldset {border: 0px;}
+		
+		.button {border: solid 1px;
+					padding: 4px;
+					border-radius: 25px;}
+		
+		.button:hover {background-color: skyblue;
+						font-weight: bold;
+						padding: 5px}
+		
+	</style>
+	
+<title>Pets To Go</title>
+	
+</head>
+
+<body>
+	
+	<div id = "container">
+		
+		<header>
+				<a href = "index.html" title = "Home"><img src ="images/banner.gif"
+				 width = "850"
+				 height = "179"
+				 alt = "banner"/></a>
+		</header><!--end header-->
+		
+		<div id = "navbar">
+		
+			<nav>
+				<ul class = "center">
+					<li><a href = "index.html" title = "Home">Home</a></li>
+					<li><a href = "aboutpets.html" title = "About Our Pets">About our Pets</a></li>
+					<li><a href = "aboutus.html" title = "About Us">About Us</a></li>
+					<li><a href = "currentpets.html" title = "Current Pets">Current Pets</a></li>
+					<li><a href = "upcomingevents.html" title = "Upcoming Events">Upcoming Evenets</a></li>
+					<li><a href = "form.html" title = "Volunteer">Volunteer</a></li>
+				</ul>
+			</nav>
+			
+		</div><!--end navbar-->
+		
+		<div id = "main">
+			
+			<h3 class = "underline">Sign Up to Volunteer!</h3><br>
+			
+			<form id = "VolunteerForm" name = "VolunteerForm" method = "post" action = "formEmailer.php">
+				<fieldset><legend>Contact Information</legend><br>
+					<label for = "firstname">First Name</label>
+					<input type = "text" name = "firstname" id = "firstname" class = "text"/><br><br>
+					
+					<label for = "lastname">Last Name</label>
+					<input type = "text" name = "lastname" id = "lastname" class = "text"/><br><br>
+					
+					<label for = "email">E-mail Address</label>
+					<input type = "text" name = "email" id = "email" class = "email" size = "40" value = "name@email.com"/><br><br>
+					
+					<input type = "radio" name = "gender" id = "male" value = "male"/>
+					<label for = "male">Male</label>
+
+					<input type = "radio" name = "gender" id = "female" value = "female"/>
+					<label for = "female">Female</label><br><br>
+					
+					<input type = "checkbox" name = "interested" id = "mailinglist" value = "mailinglist"/>
+					<label for = "mailinglist">add me to the mailing list</label><br><br>
+
+					
+					<input type = "submit" value = "Sign Up" class = "button"/>
+					<input type = "reset" value = "Clear" class = "button"/><br>
+
+
+
+				
+				
+				
+				
+				</fieldset>
+				
+			
+			
+			</form>
+
+			
+
+	
+		</div><!--end main-->
+
+		<footer>
+			<p class = "center"><span class = "underline">Pets To Go Animal Shelter</span><br>
+				3183 S Veterans Pkwy<br>
+				Springfield, Illinois 62704<br>
+				217-698-3091</p>
+		</footer><!--end footer-->
+		
+	</div><!--end container-->
+	
+</body>
+</html>
